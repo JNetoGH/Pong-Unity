@@ -390,6 +390,24 @@ Transform:
   m_Father: {fileID: 642717064}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &367755261 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7085905167206166509, guid: a2c182d2ca09e70429cba035685ba261, type: 3}
+  m_PrefabInstance: {fileID: 7085905165286012242}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &367755268
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 367755261}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 2, z: 0.25}
+  m_Center: {x: 0, y: 0, z: 0.4}
 --- !u!1 &550609593
 GameObject:
   m_ObjectHideFlags: 0
@@ -1693,6 +1711,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7046283910256829230, guid: a2c182d2ca09e70429cba035685ba261, type: 3}
+      propertyPath: m_Size.z
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 7085905167206166419, guid: a2c182d2ca09e70429cba035685ba261, type: 3}
       propertyPath: m_Constraints
       value: 118
